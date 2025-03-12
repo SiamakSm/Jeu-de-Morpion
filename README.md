@@ -64,12 +64,7 @@ Victoire détectée
 Test d’une position gagnante
 Nous allons dans cette partie, écrire le code de la fonction
 
-func testVictoire(plateau : [Int]) -> Int {
-
-                  …
-
-}
-
+func testVictoire(plateau : [Int]) -> Int {…}
 qui teste si une position est victorieuse.
 
 21.  Définissez le tableau constant « lignes », qui contiendra les 8 lignes à tester : 3 horizontales, 3 verticales, et 2 diagonales. Une ligne sera elle-même composée des trois numéros de case correspondant à une ligne (par exemple, [0,1,2] pour la première ligne horizontale). ligne[0] vaut donc [0,1,2].
